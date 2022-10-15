@@ -10,7 +10,6 @@
 		247AA5DF3742EDF63FBB81C1 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D882864B2E994D13F783B02 /* Pods_Example.framework */; };
 		87127EEC22F4CBD700ABDB39 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87127EEB22F4CBD700ABDB39 /* Default-568h@2x.png */; };
 		8751E67222F49B48000610A0 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751E66A22F49B47000610A0 /* PlayerViewController.swift */; };
-		8751E67322F49B48000610A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8751E66C22F49B47000610A0 /* LaunchScreen.xib */; };
 		8751E67422F49B48000610A0 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8751E66E22F49B47000610A0 /* video.mp4 */; };
 		8751E67522F49B48000610A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751E66F22F49B48000610A0 /* AppDelegate.swift */; };
 		8751E67622F49B48000610A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8751E67022F49B48000610A0 /* Images.xcassets */; };
@@ -22,6 +21,7 @@
 		8751E6B122F4C70F000610A0 /* AVPlayer+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751E67C22F49B83000610A0 /* AVPlayer+Utilities.swift */; };
 		87570FEB22F8D4FB00D740FD /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		87570FED22F9E15500D740FD /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87570FEC22F9E15500D740FD /* PlayerView.swift */; };
+		BDF04BBE28FAB7DF003F7F7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8751E66D22F49B47000610A0 /* LaunchScreen.xib */; };
 		F0FFB37F820BFA1221283BF8 /* Pods_PlayerKit_iOS_PlayerKit_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3423AC93F7CB435E99250B3C /* Pods_PlayerKit_iOS_PlayerKit_iOSTests.framework */; };
 		F5E7784A924FFE1AF46D019B /* Pods_PlayerKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0E6AB4D2B9EC44EF46A6D7 /* Pods_PlayerKit_iOS.framework */; };
 /* End PBXBuildFile section */
@@ -78,7 +78,7 @@
 		680FAFB882E155317DBF1794 /* Pods-PlayerKit-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayerKit-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayerKit-iOS/Pods-PlayerKit-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		87127EEB22F4CBD700ABDB39 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8751E66A22F49B47000610A0 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
-		8751E66D22F49B47000610A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		8751E66D22F49B47000610A0 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		8751E66E22F49B47000610A0 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		8751E66F22F49B48000610A0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8751E67022F49B48000610A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -218,7 +218,7 @@
 				87127EEB22F4CBD700ABDB39 /* Default-568h@2x.png */,
 				8751E66F22F49B48000610A0 /* AppDelegate.swift */,
 				8751E67022F49B48000610A0 /* Images.xcassets */,
-				8751E66C22F49B47000610A0 /* LaunchScreen.xib */,
+				8751E66D22F49B47000610A0 /* LaunchScreen.xib */,
 				8751E66A22F49B47000610A0 /* PlayerViewController.swift */,
 				8751E67122F49B48000610A0 /* PlayerViewController.xib */,
 				8751E66E22F49B47000610A0 /* video.mp4 */,
@@ -354,7 +354,6 @@
 				English,
 				en,
 				Base,
-				global,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
@@ -375,7 +374,7 @@
 			files = (
 				8751E67622F49B48000610A0 /* Images.xcassets in Resources */,
 				8751E67722F49B48000610A0 /* PlayerViewController.xib in Resources */,
-				8751E67322F49B48000610A0 /* LaunchScreen.xib in Resources */,
+				BDF04BBE28FAB7DF003F7F7A /* LaunchScreen.xib in Resources */,
 				8751E67422F49B48000610A0 /* video.mp4 in Resources */,
 				87127EEC22F4CBD700ABDB39 /* Default-568h@2x.png in Resources */,
 			);
@@ -530,17 +529,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		8751E66C22F49B47000610A0 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8751E66D22F49B47000610A0 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -660,6 +648,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Example/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -685,6 +674,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Example/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -721,6 +711,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/Configs/PlayerKit.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -760,6 +751,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/Configs/PlayerKit.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

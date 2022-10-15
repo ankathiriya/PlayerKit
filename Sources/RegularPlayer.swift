@@ -19,6 +19,8 @@ extension AVMediaSelectionOption: TextTrackMetadata {
 
 /// A RegularPlayer is used to play regular videos.
 @objc open class RegularPlayer: NSObject, Player, ProvidesView {
+    public var ended: Bool
+    
     public struct Constants {
         public static let TimeUpdateInterval: TimeInterval = 0.1
     }
@@ -127,8 +129,9 @@ extension AVMediaSelectionOption: TextTrackMetadata {
     // MARK: Lifecycle
     
     public override init() {
+        ended = true
+
         super.init()
-        
         self.addPlayerObservers()
         
         self.regularPlayerView.configureForPlayer(player: self.player)
